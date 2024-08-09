@@ -1,0 +1,42 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+  background-image: url("/public/image/banner2.png"); /* Chemin vers votre image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 20px; /* Ajout de padding pour un peu d'espace autour du contenu */
+  color: whitesmoke; /* Assurez-vous que le texte est lisible sur l'image de fond */
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.role-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.role-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ff6347; /* couleur pour les boutons */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.role-button:hover {
+  background-color: #ff4500; /* couleur au survol */
+}

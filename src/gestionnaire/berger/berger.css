@@ -1,0 +1,11 @@
+.burger-details-gestionnaire img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.card-form img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
